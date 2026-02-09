@@ -100,8 +100,7 @@ using a time-aware join.
 
 Core logic:
 
-transaction_date BETWEEN
-effective_start_date AND effective_end_date
+transaction_date BETWEEN effective_start_date AND effective_end_date
 
 The result is an analytics-ready fact table stored in Parquet format.
 
@@ -114,17 +113,7 @@ Important limitations handled in this project:
 - SCD logic is implemented using INSERT and CTAS patterns
 - Data quality must be handled carefully at ingestion time
 
-These constraints are documented intentionally to reflect real-world
-engineering decisions.
-
----
-
-## Cost Considerations
-
-- Amazon S3 storage cost is minimal for small datasets
-- Athena charges per TB scanned
-- Using Parquet significantly reduces query cost
-- Entire pipeline runs comfortably within AWS Free Tier for demos
+These constraints are documented intentionally to reflect real-world engineering decisions.
 
 ---
 
@@ -136,7 +125,6 @@ This project demonstrates:
 - Real SCD Type 2 modeling
 - Real ingestion into Amazon S3
 
-This can be demonstrated live during interviews.
 
 ---
 
