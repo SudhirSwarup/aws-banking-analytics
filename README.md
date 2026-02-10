@@ -39,6 +39,7 @@ s3://banking-analytics-scd2-sudhir/
 │   └── facts/
 │
 └── athena-results/
+```
 
 ---
 
