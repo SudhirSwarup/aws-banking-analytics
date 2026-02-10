@@ -49,9 +49,9 @@ Raw CSV files are uploaded from local folders into Amazon S3 using AWS CLI.
 
 Example commands:
 
-aws s3 sync customers s3://banking-analytics-scd2-sudhir/raw/customers/
-aws s3 sync products  s3://banking-analytics-scd2-sudhir/raw/products/
-aws s3 sync transactions s3://banking-analytics-scd2-sudhir/raw/transactions/
+- aws s3 sync customers s3://banking-analytics-scd2-sudhir/raw/customers/
+- aws s3 sync products  s3://banking-analytics-scd2-sudhir/raw/products/
+- aws s3 sync transactions s3://banking-analytics-scd2-sudhir/raw/transactions/
 
 Why AWS CLI?
 - Simple and fast for manual ingestion
