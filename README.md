@@ -128,7 +128,7 @@ The scripts are organized in execution order:
 This section provides visual proof of each stage of the AWS analytics pipeline.
 All screenshots are captured from actual AWS services during execution of the project.
 
-Screenshots are stored under the `docs/screenshots/` directory and are ordered to follow the pipeline flow from ingestion to analytics.
+Screenshots are stored under the `screenshots/` directory and are ordered to follow the pipeline flow from ingestion to analytics.
 
 ---
 
