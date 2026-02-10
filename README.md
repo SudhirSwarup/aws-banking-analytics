@@ -27,6 +27,7 @@ High-level Flow:
 
 ## S3 Data Lake Structure
 
+```text
 s3://banking-analytics-scd2-sudhir/
 ├── raw/
 │   ├── customers/
@@ -38,6 +39,7 @@ s3://banking-analytics-scd2-sudhir/
 │   └── facts/
 │
 └── athena-results/
+
 ---
 
 ## Phase 1: Data Ingestion (AWS CLI)
