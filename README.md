@@ -28,18 +28,16 @@ High-level Flow:
 ## S3 Data Lake Structure
 
 s3://banking-analytics-scd2-sudhir/
-|
-|-- raw/
-|   |-- customers/
-|   |-- products/
-|   |-- transactions/
-|
-|-- curated/
-|   |-- dimensions/
-|   |-- facts/
-|
-|-- athena-results/
-
+├── raw/
+│   ├── customers/
+│   ├── products/
+│   └── transactions/
+│
+├── curated/
+│   ├── dimensions/
+│   └── facts/
+│
+└── athena-results/
 ---
 
 ## Phase 1: Data Ingestion (AWS CLI)
